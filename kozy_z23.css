@@ -1,0 +1,26 @@
+p#pogrubienie_kozyr{
+    font-size: 30px;
+    color: #8a58d1;
+}
+p#pochylona_kozyr{
+    font-size: 35px;
+    color: #eebc6d;
+}
+p#index_gorny_kozyr{
+    font-size: 1cm;
+    color: #9e8a1d;
+}
+p#index_dolny_kozyr{
+    font-size: 3.5cm;
+    color: rgb(23%, 93%, 90%);
+}
+p#mono_kozyr{
+    font-size: 40px;
+    color: #1eda6d;
+}
+p#powiekszenie_kozyr{
+    color: #583a9f;
+}
+p#pomniejszenie_kozyr{
+    color: rgb(74%, 62%, 23%);
+}

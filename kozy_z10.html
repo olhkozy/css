@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>budowa selektora</title>
+</head>
+<body>
+    <h1> Budowa selektora </h1>
+<font face=Arial>
+<OL TYPE=1 START=1>
+<LI> Wymienić oraz opisz dwie części selektora,
+<LI> Znaczenie nawisów klamrowym {...},
+<LI> Opisz cechy,
+<LI> Opisz wartości
+<LI> Kiedy stosujemy znak średnika (;), kiedy nie jest konieczny
+</OL>
+<br>
+<OL TYPE=1 START=1>
+<LI>Każda reguła odnosi się do konkretnego elementu (znacznika) i składa się z dwóch części:<br>
+<UL TYPE=disc>
+<LI>selektora 
+<LI>deklaracji. 
+</UL>
+Selektor określa do jakich elementów ma zostać przypisane formatowanie. np. p, h1<br>
+Deklaracja jest umieszczona w nawiasie klamrowym {...} i podaje to formatowanie. 
+<LI>W nawiasach klamrowych znajdują się reguły CSS.
+<LI>Każda grupa elementów (znaczników np. &#60;body&#62; &#60;p&#62; &#60;b&#62;) ma określony zespół cech CSS, 
+które można jej przypisać. <br>
+Każda cecha ma ściśle wyszczególnioną listę wartości, które może przyjąć. <br>
+Na przykład: cecha text-align (wyrównanie tekstu) może być przypisana tylko i wyłącznie do 
+elementów blokowych, ponieważ podanie jej dla elementów wyświetlanych w linii nie 
+miałoby sensu. Z drugiej strony cecha ta może przyjmować tylko wartości takie jak: left, 
+right, center, justify. Przypisanie do niej np. wartości koloru nie miałoby sensu.
+<LI>Wartość, przy czym można podać dowolną liczbę, rozdzielając kolejne znakiem średnika (;)
+<LI>Nazwa wartości musi być zawsze poprzedzona dwukropkiem : , a cała reguła zakończona średnikiem (;) 
